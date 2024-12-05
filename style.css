@@ -6,4 +6,112 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: beige;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    padding: 12px;
+    z-index: 10;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    margin-top: 75px;
+}
+#sec1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    background-color: beige;
+}
+   
+button {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border-radius: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    border: burlywood solid ;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+.carte img {
+    width: 100%;
+}
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: brown;
+}
+.carte2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    border: burlywood solid ;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+#sec2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    background-color: beige;
+}
+.carte2 img {
+    width: 100%;
+}
+.titre2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+.carte3 {
+    border: solid beige;
+    margin: 10px;
+    border-radius: 10px;
 }
